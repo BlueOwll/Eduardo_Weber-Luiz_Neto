@@ -1,0 +1,101 @@
+.borda {
+    margin: 20px;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color:rgb(216, 8, 8);
+    width: auto;
+    height: 2000;
+    background-color: rgba(58, 63, 67, 0.55);
+}
+
+body{
+    background-image: url("Imagens/Attack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Menu {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 80px ;
+}
+
+.tirarformatacao{
+    display: inline;
+}
+
+hr {
+    border-color: rgb(216, 8, 8);
+}
+
+#Direita {
+    padding-top: 30px;
+    float: right;
+    color:  rgb(216, 8, 8);;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(216, 8, 8);
+}
+
+footer{
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+.MarginEsquerda{
+    margin-left: 10px;
+    color: rgb(216, 8, 8);
+}
+h1{
+    color: rgb(204, 9, 9);
+}
+.MarginEsquerda2{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+#ComeBorda{
+    margin-top: 50px;
+    margin-left: 55px;
+    clip: rect(6px,298px,465px,3px);
+    position: relative;
+    float: right;
+    right: 50px;
+}
+
+img{
+    background-color:#d6d6d6;
+    width: 325px;
+    border: SOLID black 2px;
+    border-radius: 5px;
+   }
+
+   #ComeBorda2{
+    margin-right: 5px;
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 0px;
+}
+#bordatabela{
+    border: solid rgb(216, 8, 8) 2px;
+    border-radius: 10px;
+    margin-left: 19%;
+    color: rgb(216, 8, 8);
+    background-color: rgba(199, 195, 195, 0.75);
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    border: 3px dashed  rgb(216, 8, 8);
+    border-radius: 4px;
+    background-color: rgb(114, 114, 114);
+}

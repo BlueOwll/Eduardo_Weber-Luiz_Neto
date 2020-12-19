@@ -1,0 +1,101 @@
+body{
+    background-image: url("Imagens/Screenshot_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.borda {
+    margin: 20px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color:#d6d6d6;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background-color: rgba(232,118, 151, 0.55);
+}
+.borda2 {
+    margin: 20px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color:#d6d6d6;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background-color: rgba(232,118, 151, 0.55);
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    border: 3px dashed pink;
+    border-radius: 4px;
+    background-color: rgb(232, 118, 151);
+}
+
+.Menu {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 80px ;
+    color: white;
+}
+
+.tirarformatacao{
+    display: inline;
+}
+
+hr {
+    border-color:  white;
+}
+
+img{
+    background-color: black;
+    width: 325px;
+   }
+
+#Direita {
+    padding-top: 30px;
+    float: right;
+}
+#ComeBorda{
+    margin-top: 50px;
+    margin-left: 55px;
+    clip: rect(6px,298px,465px,3px);
+    position: relative;
+    float: right;
+    right: 50px;
+}
+
+p{
+   margin-left: 15px; 
+   color:white;
+}
+
+.MarginEsquerda{
+    margin-left: 10px;
+    color: white;
+}
+@media(max-width:800px) {
+    img{ width: 30px;
+
+    }
+}
+#bordatabela{
+    border: solid white 2px;
+    border-radius: 10px;
+    margin-left: 10%;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+footer{
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
